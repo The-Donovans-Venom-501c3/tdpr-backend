@@ -1,15 +1,19 @@
 # tdpr-backend
 
-To install dependencies:
+Clone the repository
+
+```bash
+git clone https://github.com/The-Donovans-Venom-501c3/tdpr-backend.git
+```
+
+Install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+Run App Locally:
 
 ```bash
-bun run index.ts
+bun run dev
 ```
-
-This project was created using `bun init` in bun v1.0.30. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
