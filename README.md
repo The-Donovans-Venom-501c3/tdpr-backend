@@ -9,11 +9,18 @@ git clone https://github.com/The-Donovans-Venom-501c3/tdpr-backend.git
 Install dependencies:
 
 ```bash
-bun install
+bun i
+```
+
+Run Database Locally:
+
+```bash
+bun migrate
+bun migration:studio
 ```
 
 Run App Locally:
 
 ```bash
-bun run dev
+bun dev
 ```
