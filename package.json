@@ -15,13 +15,14 @@
     "migration:push": "drizzle-kit push:sqlite",
     "migration:delete": "drizzle-kit drop",
     "migration:check": "drizzle-kit check:sqlite",
-    "migration:studio": "npx drizzle-kit studio"
+    "migration:studio": "bunx drizzle-kit studio"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "@libsql/client": "^0.5.3",
+    "@paralleldrive/cuid2": "^2.2.2",
     "drizzle-orm": "^0.30.1",
     "elysia": "^0.8.17",
     "zod": "^3.22.4"
